@@ -1,0 +1,53 @@
+* {
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.App {
+  background: rgb(55,144,115);
+  background: -moz-linear-gradient(270deg, rgba(55,144,115,1) 0%, rgba(35,41,49,1) 100%);
+  background: -webkit-linear-gradient(270deg, rgba(55,144,115,1) 0%, rgba(35,41,49,1) 100%);
+  background: linear-gradient(270deg, rgba(55,144,115,1) 0%, rgba(35,41,49,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#379073",endColorstr="#232931",GradientType=1);
+}
+
+.first-color { 
+	background: #232931; 
+}
+	
+.second-color { 
+	background: #393e46; 
+}
+
+.third-color { 
+	background: #4ecca3; 
+}
+
+.fourth-color { 
+	background: #eeeeee; 
+}
+
+.test {
+  height: 1500px;
+}
+
+@media only screen and (max-width:375px){
+  * {
+    font-size: 1rem;
+  }
+  }
+
+@media only screen and (min-width:768px) and (max-width:1920px){
+  * {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width:1920px){
+  * {
+    font-size: 1.5rem;
+  }
+}

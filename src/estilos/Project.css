@@ -1,0 +1,46 @@
+.project__container {
+  width: 80vw;
+  margin-bottom: 20px;
+  border: 2px solid #4ecca3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.project__title {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #4ecca3;
+}
+
+.project__text {
+  text-align: center;
+  padding: 0px 30px;
+  color: #eeeeee;
+  font-size: 1rem;
+}
+
+.project__button {
+  font-size: 1rem;
+  margin: 20px;
+  padding: 5px 10px;
+  background: none;
+  border-radius: 8px;
+  border: 2px solid #eee;
+  color: #eee;
+  transition: 0.5s;
+}
+
+.project__button:hover {
+  cursor: pointer;
+  border: 2px solid #4ecca3;
+  color: #4ecca3;
+}
+
+@media only screen and (min-width:1440px){
+  .project__container {
+    width: 70vw;
+  }
+}

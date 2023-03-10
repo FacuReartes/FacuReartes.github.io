@@ -1,0 +1,57 @@
+.about__tittle h1 {
+  font-size: 2rem;
+  color: #4ecca4;
+}
+
+.about__image {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.about__image img {
+  width: 80vw;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  border: 5px solid #4ecca4;
+}
+
+.about__paragraph {
+  padding: 0 10vw;
+}
+
+.about__paragraph p {
+  padding-bottom: 20px;
+  color: #eeeeee;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .about__image img {
+    width: 60vw;
+  }
+
+  .about__paragraph {
+    padding: 0px 15vw;
+  }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1440px){
+  .about__image img {
+    width: 40vw;
+  }
+
+  .about__paragraph {
+    padding: 0px 15vw;
+  }
+}
+
+@media only screen and (min-width:1440px){
+  .about__image img {
+    width: 30vw;
+  }
+
+  .about__paragraph {
+    padding: 0px 20vw;
+  }
+}

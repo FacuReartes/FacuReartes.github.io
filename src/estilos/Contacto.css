@@ -1,0 +1,41 @@
+.contacto__container {
+  margin: 0px 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacto__iconos{
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  height: 30px;
+  color: #eee;
+  width: 30px;
+  padding: 10px 10px;
+  border-radius: 100%;
+  border: 2px solid #4ecca3;
+  transition: .5s;
+}
+
+.icon:hover {
+  cursor: pointer;
+  color: #4ecca3;
+}
+
+.contacto__texto {
+  color: #eee;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width:1440px){
+  .icon {
+    height: 50px;
+    width: 50px;
+  }
+}
