@@ -6,7 +6,7 @@ function Project(props) {
     <div className='project__container'>
       <h1 className='project__title'>{props.titulo}</h1>
       <p className='project__text'>{props.p}</p>
-      <button className='project__button'>Abrir Proyecto</button>
+      <a href={props.link} target='_blank' className='project__button button'>Abrir Proyecto</a>
     </div>
   )
 }
