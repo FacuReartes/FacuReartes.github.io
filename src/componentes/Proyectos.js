@@ -7,9 +7,10 @@ const Proyectos = forwardRef((props, ref) => {
 
   const myProjects = [
     { id:1, titulo:'Noise & Chill', p:'Generador de Sonidos Relajantes hecho con React', link: 'https://noise-chill.vercel.app/'},
-    { id:2, titulo:'Conecta Cuatro', p:'El juego Conecta Cuatro hecho con Javascript', link: 'https://facureartes.github.io/connect-four/'},
-    { id:3, titulo:'Email Signature', p:'Plantilla de Email. Responsive, estatico. Hecho solo con CSS', link:'https://facureartes.github.io/email-signature/'},
-    { id:4, titulo:'Wordle Clone', p:'Clon de el reconocido juego Wordle hecho usando React', link:'https://facureartes.github.io/portfolio/'}
+    { id:2, titulo:'Sneakers Store', p:'Modelo de Tienda de Zapatillas. Hecho con Tailwind CSS y React', link: 'https://shoe-store-swart.vercel.app/'},
+    { id:3, titulo:'Conecta Cuatro', p:'El juego Conecta Cuatro hecho con Javascript', link: 'https://facureartes.github.io/connect-four/'},
+    { id:4, titulo:'Email Signature', p:'Plantilla de Email. Responsive, estatico. Hecho solo con CSS', link:'https://facureartes.github.io/email-signature/'},
+    { id:5, titulo:'Wordle Clone', p:'Clon de el reconocido juego Wordle hecho usando React', link:'https://facureartes.github.io/portfolio/'}
   ];
 
   const ProjectComponent = myProjects.map((i) => (
