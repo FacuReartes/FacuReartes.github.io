@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react'
 import '../estilos/Skills.css'
 import SubTitulo from './SubTitulo'
 import Herramienta from './Herramienta'
-import { faReact, faPython, faJsSquare, faHtml5, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faPython, faJsSquare, faHtml5, faCss3Alt, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 
 const Skills = forwardRef((props, ref) => {
 
@@ -12,6 +12,7 @@ const Skills = forwardRef((props, ref) => {
     { id:3, icon:faPython },
     { id:4, icon:faHtml5 },
     { id:5, icon:faCss3Alt },
+    { id:6, icon:faGitAlt}
   ];
 
   const SkillComponent = mySkills.map((i) => (
