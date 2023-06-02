@@ -2,8 +2,11 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import React, { useState, useEffect } from 'react'
 import '../estilos/Title.css'
 import Icon from './Icon'
+import { useTranslation } from 'react-i18next'
 
 function Title() {
+
+  const [t, i18n] = useTranslation("global");
 
   const [scrolled, setScrolled] = useState(false);
 
@@ -28,7 +31,7 @@ function Title() {
     <div className='title'>
       <div className='title__container'>
         <h1 className='title__h1'>Reartes Facundo</h1>
-        <p className='title__p'>Desarrollador Web Front-end y Estudiante de Ingenieria en Sistemas</p>
+        <p className='title__p'>{t("title.text")}</p>
       </div>
       {!scrolled && <Icon css='scroll-down arrow-bounce' icon={faChevronDown}/>}
     </div>

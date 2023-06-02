@@ -3,8 +3,11 @@ import '../estilos/Skills.css'
 import SubTitulo from './SubTitulo'
 import Herramienta from './Herramienta'
 import { faReact, faPython, faJsSquare, faHtml5, faCss3Alt, faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 const Skills = forwardRef((props, ref) => {
+
+  const [t, i18n] = useTranslation("global");
 
   const mySkills = [
     { id:1, icon:faReact },
@@ -23,7 +26,7 @@ const Skills = forwardRef((props, ref) => {
 
   return (
     <div ref={ref}>
-      <SubTitulo titulo='Mis Herramientas'/>
+      <SubTitulo titulo={t("skills.subtitle")}/>
       <ul className='skills__container'>
         {SkillComponent}
       </ul>

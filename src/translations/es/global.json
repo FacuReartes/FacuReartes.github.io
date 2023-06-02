@@ -1,0 +1,39 @@
+{
+  "header": {
+    "about": "Acerca de Mi",
+    "tools": "Herramientas",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "title": {
+    "text": "Desarrollador Web Front-end y Estudiante de Ingenieria en Sistemas"
+  },
+  "about": {
+    "subtitle": "Acerca de Mi",
+    "text1": "A fines de 2019 decidi aprender por mi cuenta programacion con Python mientras cursaba el secundario y me di cuenta que queria seguir aprendiendo programacion. Por lo que en 2020 me gradue y decidi estudiar Ingenieria en Sistemas de Informacion.",
+    "text2": "A mediados de 2021 comence a interesarme por el desarrollo web y empece aprendiendo por mi cuenta HTML y CSS hasta llegar a React y Tailwind. Actualmente sigo aprendiendo mas sobre el desarrollo web mientras continuo con mi carrera de Universidad.",
+    "text3": "Soy autodidacta, apasionado por la tecnologia. Siempre dispuesto a tomar nuevos desafios."
+  },
+  "skills": {
+    "subtitle": "Mis Herramientas"
+  },
+  "proyectos": {
+    "subtitle": "Mis Proyectos",
+    "p1-title": "Noise & Chill",
+    "p1-text": "Generador de Sonidos Relajantes hecho con React",
+    "p2-title": "Tienda de Zapatillas",
+    "p2-text": "Modelo de Tienda de Zapatillas. Hecho con Tailwind CSS y React",
+    "p3-title": "Conecta Cuatro",
+    "p3-text": "El juego Conecta Cuatro hecho con Javascript",
+    "p4-title": "Plantilla Email",
+    "p4-text": "Plantilla de Email. Responsive, estatico. Hecho solo con CSS",
+    "p5-title": "Clon de Wordle",
+    "p5-text": "Clon de el reconocido juego Wordle hecho usando React"
+  },
+  "project": {
+    "text": "Abrir Proyecto"
+  },
+  "contacto": {
+    "text": "Hecho por "
+  }
+}
