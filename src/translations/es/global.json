@@ -25,8 +25,8 @@
     "p2-text": "Modelo de Tienda de Zapatillas. Hecho con Tailwind CSS y React",
     "p3-title": "Conecta Cuatro",
     "p3-text": "El juego Conecta Cuatro hecho con Javascript",
-    "p4-title": "Plantilla Email",
-    "p4-text": "Plantilla de Email. Responsive, estatico. Hecho solo con CSS",
+    "p4-title": "Autenticador de Usuario",
+    "p4-text": "Autenticador simple. Hecho con librerias como Axios, React Forms y una API para el backend de usuarios",
     "p5-title": "Clon de Wordle",
     "p5-text": "Clon de el reconocido juego Wordle hecho usando React"
   },

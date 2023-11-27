@@ -25,8 +25,8 @@
     "p2-text": "Sneakers Store Model. Made with Tailwind CSS and React",
     "p3-title": "Connect Four",
     "p3-text": "Connect Four game made with Javascript",
-    "p4-title": "Email Signature",
-    "p4-text": "Email Signature. Responsive, static. Made only with CSS",
+    "p4-title": "User Authenticator",
+    "p4-text": "Simple Authenticator. Made using libraries like Axios, React Forms, and an API for the user backend",
     "p5-title": "Wordle Clone",
     "p5-text": "Clone of the Wordle game made using React"
   },
