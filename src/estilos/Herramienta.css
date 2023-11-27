@@ -12,6 +12,11 @@
 .herramienta__icon {
   font-size: 4rem;
   color: #eeeeee;
+  width: 4rem;
+}
+
+.herramienta__container img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
 @media only screen and (min-width:768px) and (max-width:1440px){
@@ -29,6 +34,7 @@
 
   .herramienta__icon {
     font-size: 4.5rem;
+    width: 4.5rem;
   }
 }
 
@@ -40,5 +46,6 @@
 
   .herramienta__icon {
     font-size: 5rem;
+    width: 5rem;
   }
 }
