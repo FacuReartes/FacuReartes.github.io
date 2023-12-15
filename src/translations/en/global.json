@@ -28,7 +28,9 @@
     "p4-title": "User Authenticator",
     "p4-text": "Simple Authenticator. Made using libraries like Axios, React Forms, and an API for the user backend",
     "p5-title": "Wordle Clone",
-    "p5-text": "Clone of the Wordle game made using React"
+    "p5-text": "Clone of the Wordle game made using React",
+    "p6-title": "Despilfarro",
+    "p6-text": "Web Aplication to calculate expenses between friends. Made using React and Typescript"
   },
   "project": {
     "text": "Open Project"

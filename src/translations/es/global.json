@@ -28,7 +28,9 @@
     "p4-title": "Autenticador de Usuario",
     "p4-text": "Autenticador simple. Hecho con librerias como Axios, React Forms y una API para el backend de usuarios",
     "p5-title": "Clon de Wordle",
-    "p5-text": "Clon de el reconocido juego Wordle hecho usando React"
+    "p5-text": "Clon de el reconocido juego Wordle hecho usando React",
+    "p6-title": "Despilfarro",
+    "p6-text": "Aplicacion web para calcular gastos entre amigos. Hecha con React y Typescript"
   },
   "project": {
     "text": "Abrir Proyecto"
