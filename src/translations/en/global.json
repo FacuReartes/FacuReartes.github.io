@@ -30,7 +30,9 @@
     "p5-title": "Wordle Clone",
     "p5-text": "Clone of the Wordle game made using React",
     "p6-title": "Despilfarro",
-    "p6-text": "Web Aplication to calculate expenses between friends. Made using React and Typescript"
+    "p6-text": "Web Aplication to calculate expenses between friends. Made using React and Typescript",
+    "p7-title": "EasyCharts",
+    "p7-text": "Create and Personalize Charts Easily and Fast!"
   },
   "project": {
     "text": "Open Project"

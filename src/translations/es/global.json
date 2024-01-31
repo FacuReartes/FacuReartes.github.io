@@ -30,7 +30,9 @@
     "p5-title": "Clon de Wordle",
     "p5-text": "Clon de el reconocido juego Wordle hecho usando React",
     "p6-title": "Despilfarro",
-    "p6-text": "Aplicacion web para calcular gastos entre amigos. Hecha con React y Typescript"
+    "p6-text": "Aplicacion web para calcular gastos entre amigos. Hecha con React y Typescript",
+    "p7-title": "EasyCharts",
+    "p7-text": "Crea y Personaliza Gráficos de manera rapida y sencilla!"
   },
   "project": {
     "text": "Abrir Proyecto"
